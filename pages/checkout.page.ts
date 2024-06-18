@@ -6,7 +6,7 @@ export class Checkoutpage {
     readonly buttonCheckout: Locator;
     readonly firstname: Locator;
     readonly lastname: Locator;
-    readonly postalCode: Locator;
+    postalCode: Locator;
     readonly btnContinue: Locator;
     readonly finish: Locator;
     constructor(page: Page){

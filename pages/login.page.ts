@@ -30,4 +30,4 @@ export class Loginpage{
         await this.submit.click();
 
     }
-}
+}   

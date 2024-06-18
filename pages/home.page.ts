@@ -15,8 +15,11 @@ export class Homepage {
 
     }
 
+    
+
     // this is for the product add
     async productAdd(){
+
      await this.buttonProduct.click();
      await this.buttonLight.click();
      await this.clickCart.click();
